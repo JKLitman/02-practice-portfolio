@@ -4,20 +4,31 @@
 }
 
 header {
-    display: inline;
+    position:fixed;
+    border-bottom: 5px solid black;
 }
 
 header div img {
-    max-width: 10%;
+    max-width: 5%;
     height: auto;
-    position: relative;
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
     border: 2px solid black;
-    padding:5px;
-    margin: 5px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+#projects {
+    padding-top: 150px;
 }
 
 footer ul li {
@@ -30,6 +41,10 @@ footer ul {
     text-align: center;
 }
 
+footer {
+    padding-top: 200px;
+}
+
 h2 {
     margin-left: 50px;
 }
@@ -37,3 +52,38 @@ h2 {
 p {
     padding: 5px 25px
 }
+
+/* section ul {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.images {
+    max-width: 30%;
+    height: auto;
+}
+
+#about_me{
+    padding-top: 300px;
+}
+
+#code_refactor {
+    border: 3px solid black;
+}
+
+#portfolio_creation {
+    border: 3px solid black;
+}
+
+#prework_studyguide {
+    border: 3px solid black;
+}
+
+.project_items {
+    display: block;
+    float:inline-end;
+    width: 33%;
+}
+/* @media screen and (max width 900px){
+    .images
+} */
