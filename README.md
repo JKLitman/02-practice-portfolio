@@ -8,4 +8,4 @@ Shows different projects from the beginning weeks in a programming course, with 
 
 HTML usage for clickable interactions on the page
 
-![alt text](https://github.com/JKLitman/02-practice-portfolio/blob/main/assets/images/porfolio_html_snippet.png)
+![HTML Screenshot](https://github.com/JKLitman/02-practice-portfolio/blob/main/assets/images/porfolio_html_snippet.png)
